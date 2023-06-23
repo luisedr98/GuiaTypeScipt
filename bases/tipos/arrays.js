@@ -6,3 +6,4 @@
     villans = villans.map(v => v.concat(" super"));
     console.log(villans);
 })();
+//# sourceMappingURL=arrays.js.map

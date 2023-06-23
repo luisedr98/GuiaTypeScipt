@@ -8,3 +8,4 @@
     };
     console.log(error("Exist and error", true));
 })();
+//# sourceMappingURL=never.js.map

@@ -1,10 +1,5 @@
 "use strict";
 (() => {
-    /*
-    * definición de un enum - sirve para definir números de forma semántica
-    * por defecto los números se van tomando en conjunto con sus posiicones
-    * si se asigna un numero inicial entonces sigue con el sucesor
-    */
     let ScoreValue;
     (function (ScoreValue) {
         ScoreValue[ScoreValue["medium"] = 2] = "medium";
@@ -14,3 +9,4 @@
     const maxValue = ScoreValue.max;
     console.log(maxValue);
 })();
+//# sourceMappingURL=enums.js.map

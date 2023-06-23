@@ -8,3 +8,4 @@
     const nameHero = returnName();
     console.log({ nameHero });
 });
+//# sourceMappingURL=functions.js.map

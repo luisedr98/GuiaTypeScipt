@@ -6,3 +6,4 @@
     const name = fullName("Luis");
     console.log(name);
 })();
+//# sourceMappingURL=arg-optionals.js.map

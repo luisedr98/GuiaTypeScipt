@@ -10,3 +10,4 @@
     const b = myFunction2();
     console.log({ a, b });
 })();
+//# sourceMappingURL=void.js.map
