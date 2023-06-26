@@ -1,6 +1,6 @@
-import { Hero } from "./classes/Hero";
+import { getPokemons } from "./generics/get-pokemons";
 
-// console.log("Hola Mundo!");
-
-const iroman = new Hero("Iroman", 2, 55);
-console.log(iroman.power);
+getPokemons(1)
+  .then((pokemon) => console.log(pokemon.sprites.front_default))
+  .catch((e) => console.error(e))
+  .finally(() => console.log("finally get Pokemons"));
